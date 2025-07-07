@@ -115,6 +115,16 @@ After removing first match for "lanta":
 Orlando - 0 km, 9h
 Charlotte - 350 km, 17h
 ```
+## Performance Characteristics
+
+| Operation            | Time Complexity | Space Complexity | Use Case                 |
+| -------------------- | --------------- | ---------------- | ------------------------ |
+| Insert at Head       | O(1)            | O(1)             | Priority routing         |
+| Insert at Tail       | O(n)            | O(1)             | Standard delivery        |
+| Search Hub           | O(n)            | O(1)             | Hub lookup               |
+| Total Distance       | O(n)            | O(1)             | Route analysis           |
+| Bottleneck Detection | O(n)            | O(1)             | Performance optimization |
+| Reverse Print        | O(n)            | O(n)             | Route verification       |
 
 ### Quality assurance
 
